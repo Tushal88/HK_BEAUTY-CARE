@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HK Beauty Care</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Lato', sans-serif; background-color: #f9f3ef; color: #6d4c41; margin: 0; padding: 20px; }
+        .container { max-width: 800px; margin: auto; background-color: #fff; padding: 30px; border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+        h1, h2, h3 { font-family: 'Cinzel Decorative', serif; text-align: center; color: #8d6e63; }
+        h1 { font-size: 2.5em; margin-bottom: 10px; }
+        h2 { font-size: 1.8em; margin-top: 30px; margin-bottom: 20px; }
+        h3 { font-size: 1.4em; margin-bottom: 15px; text-align: left; }
+        .contact-info { text-align: center; margin-bottom: 30px; font-size: 1.1em; }
+        .service-card { display: flex; background-color: #fafafa; border-radius: 12px; overflow: hidden; margin-bottom: 25px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        .service-card img { width: 40%; object-fit: cover; }
+        .service-details { padding: 20px; width: 60%; }
+        .price-list { list-style: none; padding: 0; margin: 0; }
+        .price-list li { display: flex; justify-content: space-between; padding: 5px 0; border-bottom: 1px solid #eee; }
+        .footer { text-align: center; margin-top: 30px; font-size: 0.9em; color: #8d6e63; }
+        @media (max-width: 600px) { .service-card { flex-direction: column; } .service-card img { width: 100%; height: 200px; } .service-details { width: 100%; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>HK BEAUTY CARE</h1>
+        <div class="contact-info">
+            <p>+49 (0) 15210744035</p>
+            <p>MOHINEE HIRPARA</p>
+        </div>
+        <h2>BEAUTY SERVICES</h2>
+        <div class="service-card">
+            <img src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&q=80&w=400" alt="Threading">
+            <div class="service-details">
+                <h3>THREADING SERVICES</h3>
+                <ul class="price-list">
+                    <li><span>Eyebrows & Forehead</span><span>€7</span></li>
+                    <li><span>Upperlips</span><span>€3</span></li>
+                    <li><span>Chin</span><span>€2</span></li>
+                    <li><span>Full Face</span><span>€10</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="service-card">
+            <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&q=80&w=400" alt="Hair Cut">
+            <div class="service-details">
+                <h3>HAIR CUT SERVICES</h3>
+                <ul class="price-list">
+                    <li><span>Simple Hair Cut</span><span>€15</span></li>
+                    <li><span>Advance Cut</span><span>€20</span></li>
+                    <li><span>Layer & Step Cut</span><span>€25</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="service-card">
+            <img src="https://images.unsplash.com/photo-1559599101-f09722fb4948?auto=format&fit=crop&q=80&w=400" alt="Waxing">
+            <div class="service-details">
+                <h3>WAXING SERVICES</h3>
+                <ul class="price-list">
+                    <li><span>Full Arms</span><span>€20</span></li>
+                    <li><span>Full Legs</span><span>€30</span></li>
+                    <li><span>Half Legs</span><span>€15</span></li>
+                    <li><span>Underarms</span><span>€7</span></li>
+                    <li><span>Full Face</span><span>€10</span></li>
+                    <li><span>Full back</span><span>€20</span></li>
+                    <li><span>Full body</span><span>€80</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer">
+            <p>By Appointment Only</p>
+            <p>Book Your Session Now via WhatsApp or Phone.</p>
+            <p>Home services available at €5 additional charge</p>
+            <p>(Complimentary home service for all bookings over €25)</p>
+        </div>
+    </div>
+</body>
+</html>
